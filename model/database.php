@@ -12,7 +12,7 @@
         $db = new PDO($dsn, $username, $password);
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
-        include('c:/xampp/htdocs/Midterm_Project/errors/database_error.php');
+        include('../errors/database_error.php');
         exit();
     }
 ?>

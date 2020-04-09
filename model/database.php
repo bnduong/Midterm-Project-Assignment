@@ -8,6 +8,7 @@
     $username = 'g02d3awnk7yz8v89';
     $password = 'gmfyrukark3oxzcd';
     try {
+        $db = new PDO($dsn, $username);
         $db = new PDO($dsn, $username, $password);
     } catch (PDOException $e) {
         $error_message = $e->getMessage();

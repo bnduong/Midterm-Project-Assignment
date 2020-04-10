@@ -1,7 +1,7 @@
 <?php include 'view/header-admin.php'; ?>
 <main>
 <h2>Add Vehicle</h2>
-<form action="index.php" method="post" id="add_vehicle_form">
+<form action="zippy-admin.php" method="post" id="add_vehicle_form">
 <input type="hidden" name="action" value="add_vehicle">
 
 <label>Type:</label>
